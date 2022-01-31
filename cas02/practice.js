@@ -6,12 +6,15 @@
 // 3. Racuna sumu prosledjenog niza
 // 4. Ispisuje koliko ima brojeva vecih od prvog elementa niza
 a=[]
-for(i=0;i<a.length;i++)
+for(i of a)
     console.log(i);
 
-for(i=0;i<a.length;i++)
+for(i of a)
     if(i%2==0)
      console.log(i);
 
+var suma=0
+for(i of a)
+    suma+=i;
 //izvinite, nisam stigao da zavrsim
     
